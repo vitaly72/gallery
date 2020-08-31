@@ -17,7 +17,9 @@ class _DetailPageState extends State<DetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(widget.title)),
+      appBar: AppBar(
+          title: Text("Gallery")
+      ),
       body: DetailWidget(
           color: widget.color,
           urlPhoto: widget.urlPhoto
